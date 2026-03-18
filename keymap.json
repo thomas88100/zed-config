@@ -27,8 +27,10 @@
   {
     "context": "Terminal",
     "bindings": {
-      "ctrl-n": "workspace::NewTerminal",
+      "ctrl-o": "workspace::NewTerminal",
       "ctrl-d": "pane::CloseActiveItem",
+      "ctrl-n": "pane::ActivateNextItem",
+      "ctrl-p": "pane::ActivatePreviousItem",
     },
   },
 ]
